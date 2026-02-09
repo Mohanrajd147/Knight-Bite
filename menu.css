@@ -1,0 +1,145 @@
+@import url(https://db.onlinewebfonts.com/c/ba42d447ceb2312b8e3d7317fd8e59a0?family=Nicotine);
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+header{
+    background: url(./Images/menu\ banner) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 10px 6%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+nav .logo{
+    width: 12%;
+}
+nav img{
+    width: 100%;
+    height: 100%;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 40px;
+}
+.nav-links a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+    padding: 150px ;
+    row-gap: 40px;
+    text-align: center;
+}
+.menu h2{
+    font-family: 'Nicotine';
+    color: white;
+    font-size: 38px;
+}
+.nav-links a:hover{
+    color: #c77bf4;
+}
+.menus{
+    height: 135px;
+}
+.menu a:hover{
+    color: grey;
+}
+
+.footerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.footer {
+    height: 50px;
+    background: linear-gradient(to right, #c77bf4, #FF5672);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:576px) {
+    * {
+        font-size: 15px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        height: 1000px;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.2);
+        position: fixed;
+    }
+
+    .nav-links a{
+        font-size: 1.2rem;
+    }
+    .nav-links a:hover{
+    color: #c77bf4;
+}
+    nav .logo {
+        width: 50%;
+        margin: auto;
+    }
+    .menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding: 200px ;
+    row-gap: 40px;
+    text-align: center;
+}
+.menu h2{
+    font-family: 'Nicotine';
+    color: white;
+    font-size: 25px;
+}
+.menus{
+    height: 105px;
+}
+footer{
+    margin-top: rem;
+}
+}

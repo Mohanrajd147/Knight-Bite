@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    padding-left: 7rem;
+    gap: 5px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+img{
+    width: 38px;
+    height: 38px;
+}
+
+.appbar{
+    display: flex;
+    padding-left: 60%;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+    cursor: pointer;
+}
+
+.bg{
+    background: url(./app-link-background.svg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: block;
+    padding-left: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+h1{
+    color: white;
+    padding-left:95px;
+    padding-top: 280px;
+    font-family: 'chewy';
+    font-size: 80px;
+    letter-spacing: 7px;
+}
+.btn1{
+    background-color: rgb(233, 119, 138);
+    border: none;
+    padding: 10px 20px;
+    border-radius: .5rem;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    margin-left: 41%;
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+
+
+.btn2{
+    background-color: black;
+    border-color: white;
+    padding: 6px 10px;
+    border-radius: .5rem;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+    transition: transform .3s; 
+}
+
+.btn3{
+    background-color: black;
+    border-color: white;
+    padding: 10px 40px 6px 20px;
+    border-radius: .5rem;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform .3s;
+
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+.btn{
+    display: flex;
+    gap: 10%;
+    padding-left: 21%;
+    padding-top:2vh;
+    margin-top: 15px;
+}
+.googleplay img{
+    height: 50px;
+    width: 60px;
+}
+.appstore{
+    position: relative;
+    left: 10%;
+}
+.googleplay{
+     position: relative;
+    left: 4%;
+}
+h3{
+    padding-left: 46%;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+.btn2:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+}
+.btn3:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+}
+
+.Feat{
+   font-size: 45px;
+   text-align: center;
+   margin-top: 70px;
+   color: rgb(49, 47, 47);
+   font-family: sans-serif;
+   margin-bottom: 50px;
+}
+
+.Feature{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    font-size: 20px;
+    padding-bottom: 100px;
+    letter-spacing: 1px;
+
+    
+}
+
+.feat1 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    justify-content: space-evenly;
+}
+
+.feat2 img{
+    height: 200px;
+    width: 200px;
+}
+
+.feat3 img{
+    height: 200px;
+    width: 200px;
+}
+
+.feat4 img{
+    height: 200px;
+    width: 200px;
+}
+
+.feat5 img{
+    height: 200px;
+    width: 200px;
+}
+
+.bg2{
+    background: url(./banner-2.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: block;
+}
+
+.bg3{
+    background: url(./banner-3.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.head2{
+    color: white;
+    margin-left: 120px;
+    padding-top: 280px;
+    font-family: 'chewy';
+    font-size: 100px;
+    letter-spacing: 7px;
+}

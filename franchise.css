@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Nunito';
+}
+header{
+    background: url(./Images/app-link-background.svg) no-repeat center/cover;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 10px 6%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+}
+nav .logo{
+    width: 12%;
+}
+nav img{
+    width: 100%;
+    height: 100%;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 40px;
+}
+.nav-links a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    height: 100vh;
+}
+.header-content h1{
+    font-size: 5rem;
+    font-variant-caps: all-petite-caps;
+}
+.header-content a{
+    background-color: hotpink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    padding: 15px 50px ;
+    margin-top: 2%;
+    text-decoration: none;
+}
+.header-content h3{
+    font-size: 2rem;
+     font-variant-caps: all-petite-caps;
+}
+.mission{
+    height: 50vh;
+    width: 100%;
+    
+}
+.mission h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mission p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 4%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.key-benefits{
+    margin-top: 2%;
+    height: 100vh;
+    width: 100%;
+    
+}
+.key-benefits h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.key-benefits1{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display:grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    column-gap: 20px;    
+}
+.edit{
+    text-align: center;
+}
+
+.key-benefits p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+.key-benefits h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.edit img{
+    width: 85px;
+    height: 85px;
+}
+.apply h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3%;
+}
+.apply{
+    height: 120vh;
+    width: 100%;
+}
+
+.apply p{
+    margin-top: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.apply img{
+    margin-left: 18%;
+    height: 68%;
+    width: 65%;
+}
+.apply a{
+    background-color: hotpink;
+    color: white;
+    border-radius: 2rem;
+    padding: 15px 50px ;
+    margin-top: 2%;
+    text-decoration: none;
+    margin-left: 43%;
+}
+.abc{
+    height: 30vh;
+}
+.abc h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3%;
+}
+.edit1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.edits{
+    display: flex;
+    column-gap: 20px;
+}
+.edits img{
+    height: 40px;
+    width: 40px;
+}
+.edits p{
+    margin-top: 6%;
+    color: rgb(209, 44, 71);
+}
+footer{
+    background: linear-gradient(to right, rgb(236, 20, 56) ,hotpink);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+.container video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+/* mobile screen responsive code */
+
+@media (max-width:576px){
+     *{
+        font-size: 20px
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .logo{
+        width: 60%;
+    }
+    .header-content h1{
+        font-size: 1rem;
+    }
+    .key-benefits1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .container{
+        height: 70vh;
+    }
+    .container video{
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       z-index: -1;
+       width: 100%;
+       height: 100vh;
+       background-size: cover;
+    }
+    .header-content h1{
+        color: black;
+        font-size: 2rem;
+        margin-top: 15rem;
+    }
+    .header-content h3{
+        color: black;
+        font-size: 1.5rem;
+
+    }
+    .header-content a{
+       margin-bottom: 12rem;
+    }
+    .mission h2{
+        padding-top: 3rem;
+    }
+    .mission p{
+        font-size: 1rem;
+    }
+    .key-benefits h1{
+        padding-top: 6rem;
+    }
+    .apply{
+        margin-top: 230%;
+    }
+    .apply p{
+        padding-top: 1rem;
+    }
+    .apply img{
+        height: 8rem;
+        padding-top: 1rem;
+    }
+    .apply a{
+        margin-left: 4rem;
+    }
+    .edit1{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+    .abc{
+        margin-bottom: 4rem;
+    }
+    .apply{
+        height: 70vh;
+    }
+    .key-benefits horizontal{
+        margin-top: 150%;
+    }
+}
